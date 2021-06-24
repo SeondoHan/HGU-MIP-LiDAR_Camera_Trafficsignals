@@ -313,6 +313,9 @@ Azimuth[degree], Vertical[degree], Distance[centimeter] 로 출력
 
 #### LiDAR_Camera_Calibration_with_Boxes_Final
 
+download : https://drive.google.com/drive/folders/10_UoEmBbug20WsTiTC9w_IQpwkC8hPNJ?usp=sharing
+한동대학교 메일로만 접근 가능
+
 폴더 내 README.docx 참고
 
 *해당 폴더내 모든 내용은 한동대학교 2019년 졸업 연구로 김예함, 이예은에 의해 제작되었음.
