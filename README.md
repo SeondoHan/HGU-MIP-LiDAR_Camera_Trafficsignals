@@ -230,17 +230,18 @@ cv::rectangle(*show_img, pt1, pt2, color, width, 8, 0);
 
 곱해지는 상수는 LiDAR_Camera_Calibration의 결과로 나온 행렬 
 
-![matrix1](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\matrix1.PNG)
+![matrix1](https://user-images.githubusercontent.com/84533459/123233149-c8cef280-d514-11eb-8ddd-e10446fa2e88.PNG)
 
 의 역행렬인
 
-![matrix2](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\matrix2.PNG)
+![matrix2](https://user-images.githubusercontent.com/84533459/123233151-c9678900-d514-11eb-87d7-f48d6a471ba4.PNG)
 
 를 곱하여 준다.
 
 예를 들어,
 
-![matrix3](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\matrix3.PNG)
+![matrix3](https://user-images.githubusercontent.com/84533459/123233154-c9678900-d514-11eb-96fd-cd942a8167c7.PNG)
+
 
 라고 할때
 
