@@ -265,7 +265,8 @@ YOLO실행방법
 
 1. darknet/x64 폴더로 이동 후, 경로창에서 cmd 실행
 
-   ![darknet_cmd](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\darknet_cmd.PNG)
+![darknet_cmd](https://user-images.githubusercontent.com/84533459/123233147-c8365c00-d514-11eb-8525-3dd0812a24c5.PNG)
+
 
    
 
