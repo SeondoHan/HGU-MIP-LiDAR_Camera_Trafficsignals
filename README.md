@@ -229,23 +229,19 @@ cv::rectangle(*show_img, pt1, pt2, color, width, 8, 0);
 해당코드는 bounding box의 왼쪽상단(LT), 정중앙(center), 우측하단(RB)의 좌표를 라이다 좌표계의 azimuth/vertical/distance 로 변환해주는 코드이다.
 
 곱해지는 상수는 LiDAR_Camera_Calibration의 결과로 나온 행렬 
-$$
-A[R|t]
-$$
- 의 역행렬인
-$$
-R^{-1}[A^{-1}|-t]
-$$
+
+![matrix1](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\matrix1.PNG)
+
+의 역행렬인
+
+![matrix2](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\matrix2.PNG)
+
 를 곱하여 준다.
 
 예를 들어,
-$$
-R^{-1}[A^{-1}|-t]=\begin{bmatrix}
-a & b & c & d \\
-e & f & g & h \\
-i & j & k & l
-\end{bmatrix}
-$$
+
+![matrix3](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\matrix3.PNG)
+
 라고 할때
 
 ```c
@@ -269,9 +265,7 @@ YOLO실행방법
 
 1. darknet/x64 폴더로 이동 후, 경로창에서 cmd 실행
 
-   ![image-20210624155629799](C:\Users\hansd0118\AppData\Roaming\Typora\typora-user-images\image-20210624155629799.png)
-
-   ![image-20210624155644407](C:\Users\hansd0118\AppData\Roaming\Typora\typora-user-images\image-20210624155644407.png)
+   ![darknet_cmd](C:\Users\hansd0118\Documents\GitHub\HGU-MIP-LiDAR_Camera_Trafficsignals\image\darknet_cmd.PNG)
 
    
 
@@ -300,7 +294,7 @@ YOLO실행방법
    랩탑의 경우 내장 webcam의 number = 0,
 
    추가 usb 연결한 webcam의 number = 1.
-   
+
    
 
 #### VelodyneCapture
